@@ -1,0 +1,169 @@
+.twitt {
+    border: 2px solid grey;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#name{
+	color: black;
+	font-weight: bold;
+}
+
+#date{
+	color: grey;
+}
+
+a{
+	text-decoration: none;	
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../../assets/img/fondo.jpg");
+}
+
+header{
+	border: 1px solid red;
+	background-color: #FFFFFF;
+	height: 50px;
+}
+
+li{
+	display: inline-block;
+	margin-right: 10px;
+	list-style: none;
+	color: rgb(102, 117, 127);
+
+}
+
+.izquierda{
+	float: left;
+
+}
+
+.derecha{
+	float: right;
+}
+
+.icono{
+	color: #1DA1F2;
+	margin-left: 400px;
+	font-size: 30px;
+}
+
+.perfilbarra{
+	width: 25px;
+	border-radius: 15px;
+}
+/*perfil*/
+.caja1{
+	margin-top: 20px;
+	display: inline-block;
+	border:1px solid pink;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.portadaperfil{
+
+}
+
+.perfil{
+
+}
+
+/*que pienso*/
+.caja2{
+	background-color: transparent;
+	display: inline-block;
+	border: 1px solid orange;
+	background-color: #fff;
+	border-radius: 5px;	
+	margin-top: 150px;
+	float: right;
+	margin-right: 10px;
+
+	margin-right: 70px;
+}
+/*informacion de twitter*/
+.caja4{
+	float: right;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	border: 1px solid deeppink;
+	background-color: #ffffff;
+	margin-top: 20px;
+	text-align: justify;
+	color: grey;
+	border-radius: 10px;
+}
+
+.info{
+	margin: 20px;
+	margin-top: 80px;
+}
+
+#showChar{
+	border:none;
+	background-color: transparent;
+	display: block;
+}
+
+.pienso{
+	width: 500px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.boton2{
+	border-radius: 8px;
+	font-size: 16px;
+	width: 80px;
+	height: 30px;
+	background-color: #33CCFF;
+	border: 1px solid #33CCFF;
+	display: block;	
+}
+/*tweets*/
+.caja3{
+	border: 1px solid purple;
+	width: 603px;
+	height: 300px;
+	display: inline-block;
+	float: right;
+	margin-right: 300px;
+
+}
+/*tendencias*/
+.caja5{
+	width: 400px;
+	height: 300px;
+	border: 1px solid green;
+	display: inline-block;
+	float: left;
+	background-color: #ffffff;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+/*recomendaciones
+
+.caja6{
+	width: 400px;
+	height: 300px;
+	border: 1px solid yellow;
+	display: inline-block;
+	float: right;
+	background-color: #ffffff;
+}
+
+*/
