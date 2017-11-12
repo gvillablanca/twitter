@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <script src="assets/js/app.js" type="application/javascript"></script>
     <title>Twitter</title>
+    <!-- link rel = "icon " hrf (dreccion imagen 16*16 tamaño) type= "image/x-icon"-->
 </head>
 
 <body>
@@ -54,7 +55,7 @@
 
             <!-- que piensas -->
             <section class="caja2">
-                <textarea type="form-control" name="piensa" placeholder="Que piensas?" class="pienso"></textarea>
+                <textarea type="form-control" name="piensa" id="piensa" placeholder="Que piensas?" class="pienso" rows="3"></textarea>
                 <input type="text" id="showChar" size="1">
                 <button name="enviar" class="boton2">Enviar</button>
                 
@@ -66,11 +67,15 @@
             </section>
 
             <!-- tweets-->
-            <section name="lineaDeTiempo" class="caja3"></section>
+            <section name="lineaDeTiempo" class="caja3">
+                <a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </section>
 
             <!-- tendencias-->
             <section class="caja5">
                 <p></p>
             </section>
+
+
 </body>
 </html>

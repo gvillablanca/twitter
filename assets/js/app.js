@@ -33,7 +33,7 @@ window.onload = function() {
         var resta = "";
         var piensa = thinkTextarea.value.length;
         resta = longitud - piensa;
-        showChar.value=resta;
+        showChar.value=resta;//funcion showchar esta definido al inicio del codigo
 
         if(resta>120 && resta <140){            
             sendButton.disabled= false;
@@ -49,20 +49,11 @@ window.onload = function() {
 
 
 //texarea que cresca
-    thinkTextarea.setAtributte('style', 'height:' + (thinkTextarea.scrollHeight) + 'px; overflow-y:hidden;');
-    thinkTextarea.addEventListener("input", OnInput, false);
-
-    function OnInput(){
-        this.style.height = 'auto';
-        this.style.height = (this.scrollHeight) + 'px';
-    }
-
     var textarea = document.getElementById("piensa");
     var heightLimit = 200; /* Maximum height: 200px */
-
     textarea.oninput = function() {
-        textarea.style.height = ""; /* Reset the height*/
-        textarea.style.height = Math.min(textarea.scrollHeight, heightLimit) + "px";
+      textarea.style.height = ""; /* Reset the height*/
+      textarea.style.height = Math.min(textarea.scrollHeight, heightLimit) + "px";
     }
 }
 
