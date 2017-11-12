@@ -67,6 +67,8 @@ li{
 	height: 300px;
 	border-radius: 10px;
 	margin-left: 10px;
+	background-image: url(../../assets/img/perfil.png);
+	background-repeat: no-repeat;
 }
 
 .portadaperfil{
